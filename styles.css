@@ -27,3 +27,105 @@ body{
     line-height: 1.8rem;
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+main{
+    background-color:white;
+    border-radius: 2.2rem;
+    display: grid;
+    max-width:40rem; 
+}
+.illustration{
+    position: relative;
+    display:grid;
+    place-content:center;
+}
+
+.illustration .image{
+    display:inherit;
+    position:relative;
+}
+
+.illustration .image .bg{
+    display:inherit;
+}
+
+.illustration .image .woman{
+    display:inherit;
+    position:absolute;
+    width: 100%;
+    transform: translateY(-59);
+}
+
+.illustration .box{
+    display: none;
+}
+.faq{
+    padding:2.4rem;
+
+}
+
+.faq h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: var(--very-dark-desarturated-blue);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom:3.2rem;
+}
+
+.faq .question{
+    border-bottom: 1px solid var(--light-grayish-blue);
+    padding-bottom: 1.7rem;
+    margin-bottom:1.8rem;
+}
+
+.faq .question .title{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.faq .question .title input{
+    display:none;
+}
+
+.faq .question .title label{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.3rem;
+    line-height:1.6rem;
+    letter-spacing:0.005em;
+    color:var(--very-dark-grayish-blue);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.faq .question .title label:hover{
+    color: var(--Soft-red);
+}
+
+.faq .question .title span{
+    display: inherit;
+    margin: 0 1.2rem;
+    transition: all 0.3s;
+}
+
+.faq .question .title p{
+    padding-top: 1rem;
+    color: var(--Dark-grayish-blue);
+    transition: all 0.3s;
+    display: none;
+}
+
+.faq .question .title input:checked ~ label{
+    font-weight: 700;
+}
+.faq .question .title input:checked ~ label span{
+    transform:rotate(-180deg);
+}
+.faq .question .title input:checked ~ p{
+    display: block; 
+}
+

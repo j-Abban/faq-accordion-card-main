@@ -5,22 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles.cs">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
 </head>
 <body>
 <main>
+  
   <div clss="illustration">
     <div class="image">
     <picture class="bg">
-      <source media="(min-width: )" srcset="./images/bg">
+      <source media="(min-width:940px)" srcset="images/bg-pattern-desktop.svg">
+
+      <img src="images/bg-pattern-mobile.svg" alt="">
 
 
     </picture>
+    <picture class="woman">
+      <source media="min-width: 940px" srcset="images/illustration-woman-online-desktop.svg">
+      <img src="images/illustration-woman-online-mobile.svg">
+    </picture>
+    </div>
+    <div class="box">
+      <img src="images/illustration-box-desktop.svg">
     </div>
   </div>
+  <div class="faq">
+    <h1>faq</h1>
+    <div class="question">
+<div class="title">
+  <input type="radio" name="title" id="title-1">
+  <label for="title-1">How many members can I invite? <span><img src="images/icon-arrow-down.svg" alt=""></span>
+  </label>
+  <p>You can invite up to 2 aditional users in our Free plan. There is no limit on the team members for the Premium Plan.
+  </p>
+</div>
+</div>
+  <div class="question">
+<div class="title">
+  <input type="radio" name="title" id="title-2">
+  <label for="title-2">What is the maximum file upload size? <span><img src="images/icon-arrow-down.svg" alt=""></span></label>
+  <p>No more than 2GB. All files in your account must fit your allotted storage space.
+  </p>
+</div>
+  </div>
+  <div class="question">
+    <div class="title">
+      <input type="radio" name="title" id="title-3">
+      <label for="title-3"> How do I reset my password? <span><img src="images/icon-arrow-down.svg" alt=""></span>
+      </label>
+      <p> Click “Forgot password” from the login page or “Change password” from your profile page.
+        A reset link will be emailed to you.
+      </p>
+    </div>
+    </div>
+    <div class="question">
+      <div class="title">
+        <input type="radio" name="title" id="title-4">
+        <label for="title-4"> Can I cancel my subscription? <span><img src="images/icon-arrow-down.svg" alt=""></span>
+        </label>
+        <p> Yes! Send us a message and we’ll process your request no questions asked.
+        </p>
+      </div>
+      </div>
+      <div class="question">
+        <div class="title">
+          <input type="radio" name="title" id="title-5">
+          <label for="title-5">  Do you provide additional support? <span><img src="images/icon-arrow-down.svg" alt=""></span>
+          </label>
+          <p> Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </div>
+        </div>
+</div>
 </main>
 
 </body>
