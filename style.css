@@ -68,14 +68,14 @@ main{
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 4rem;
-    color: var(--very-dark-desarturated-blue);
-    text-transform: uppercase;
+    color: var(--Very-Dark-desaturated-blue);
+    text-transform: Uppercase;
     text-align: center;
     margin-bottom:3.2rem;
 }
 
 .faq .question{
-    border-bottom: 1px solid var(--light-grayish-blue);
+    border-bottom: 1px solid var(--Light-grayish-blue);
     padding-bottom: 1.7rem;
     margin-bottom:1.8rem;
 }
@@ -98,7 +98,7 @@ main{
     font-size: 1.3rem;
     line-height:1.6rem;
     letter-spacing:0.005em;
-    color:var(--very-dark-grayish-blue);
+    color:var(--Very-Dark-grayish-blue);
     cursor: pointer;
     transition: all 0.3s;
 }
